@@ -1,2 +1,2 @@
-include ':app', ':webrtclibrary', ':webrtczzwapp'
+include ':app', ':webrtczzwlibrary', ':webrtczzwapp', ':apprtclibrary'
 include ':webrtcandroidapp'

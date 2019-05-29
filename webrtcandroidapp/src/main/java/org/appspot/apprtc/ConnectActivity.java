@@ -16,6 +16,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.util.Log;
@@ -117,6 +118,7 @@ public class ConnectActivity extends Activity {
       String room = sharedPref.getString(keyprefRoom, "");
       connectToRoom(room, true, loopback, useValuesFromIntent, runTimeMs);
     }
+    Log.e(TAG, "onCreate: "+ Build.CPU_ABI);
   }
 
   @Override
