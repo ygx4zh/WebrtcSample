@@ -1,2 +1,5 @@
-include ':app', ':webrtczzwlibrary', ':webrtczzwapp', ':apprtclibrary'
-include ':webrtcandroidapp'
+// 编译出来的修改包名后的webrtc_zzwtec库, 对应的sample
+include ':webrtczzwlibrary', ':webrtczzwapp'
+
+// 编译出来的原生的apprtc库, 对应的sample
+include ':apprtclibrary', ':webrtcandroidapp'
