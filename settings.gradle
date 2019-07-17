@@ -3,3 +3,6 @@ include ':webrtczzwlibrary', ':webrtczzwapp'
 
 // 编译出来的原生的apprtc库, 对应的sample
 include ':apprtclibrary', ':webrtcandroidapp'
+
+// 慕课网上学习后写的webrtcsample
+include ':imoocwebrtcsample'
